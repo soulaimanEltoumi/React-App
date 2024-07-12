@@ -6,13 +6,13 @@ function Sidebar() {
       <h2>Menú</h2>
       <ul>
         <li>
-          <a href="#home">Inicio</a>
+          <a href="#home">Main dishes</a>
         </li>
         <li>
-          <a href="#services">Servicios</a>
+          <a href="#services">Desserts</a>
         </li>
         <li>
-          <a href="#about">Sobre nosotros</a>
+          <a href="#about">Favorite food dishes</a>
         </li>
         <li>
           <a href="#contact">Calories</a>

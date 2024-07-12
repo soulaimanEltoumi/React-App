@@ -1,5 +1,5 @@
 import { Link, NavLink, Routes } from "react-router-dom";
-import Logoimage from "../Components/images/5403020.png";
+import Logoimage from "../Components/images/LogoImage.png";
 
 export default function Navbar() {
   return (
