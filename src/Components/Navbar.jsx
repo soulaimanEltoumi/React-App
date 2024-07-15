@@ -1,15 +1,16 @@
-import { Link, NavLink, Routes } from "react-router-dom";
-import Logoimage from "../assets/images/LogoImage.png";
+import { NavLink } from "react-router-dom";
+import LogoImage from "../assets/images/LogoImage.png";
 import classes from "./Navbar.module.css";
 
-export default function Navbar() {
+function Navbar() {
   return (
     <>
       <nav className={classes.navbar}>
-        <img src={Logoimage} alt="logo" />
+        <img src={LogoImage} alt="logo" />
         <NavLink to="/"> Home </NavLink>
         <NavLink to="/about"> About </NavLink>
       </nav>
     </>
   );
 }
+export default Navbar;
